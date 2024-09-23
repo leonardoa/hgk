@@ -1,11 +1,19 @@
+/** import fonts **/
+@font-face {
+  font-family: 'HGKBRiformaMonoLLVIP-Upright';
+  src: url('assets/HGKBRiformaMonoLLVIP-Upright.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 13px;
+  font-family: "HGKBRiformaMonoLLVIP-Upright", sans-serif;
+  font-size: 12px;
 }
 
 .container {
-  width: 568px;
+  width: 768px;
   padding: 0;
 }
 
