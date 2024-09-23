@@ -1,28 +1,10 @@
 /** import fonts **/
 @font-face {
-  font-family: 'ABCDiatypeMono-Heavy-Trial';
-  src: url('fonts/ABCDiatypeMono-Heavy-Trial.woff') format('woff'),
-        url('fonts/ABCDiatypeMono-Heavy-Trial.woff2') format('woff2');
+  font-family: 'HGKBBrownLLVIP-Collection';
+  src: url('fonts/HGKBBrownLLVIP-Collection.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'ABCDiatypeMono-Regular-Trial';
-  src: url('fonts/ABCDiatypeMono-Regular-Trial.woff') format('woff'),
-        url('fonts/ABCDiatypeMono-Regular-Trial.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ABCDiatypeMono-ThinItalic-Trial';
-  src: url('fonts/ABCDiatypeMono-ThinItalic-Trial.woff') format('woff'),
-        url('fonts/ABCDiatypeMono-ThinItalic-Trial.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 
 /** flex-container **/
@@ -39,15 +21,23 @@ h1, h2, h3, h4, h5, h6, p, em, strong {
 }
 
 .font-regular {
-  font-family: 'ABCDiatypeMono-Regular-Trial';
+  font-family: 'HGKBBrownLLVIP-Collection';
 }
 
 .font-bold {
-  font-family: 'ABCDiatypeMono-Heavy-Trial';
+  font-family: 'HGKBBrownLLVIP-Collection';
+  font-variation-settings: 'wght' 850;
+
 }
 
 .font-italic {
-  font-family: 'ABCDiatypeMono-ThinItalic-Trial';
+  font-family: 'HGKBBrownLLVIP-Collection';
+  font-variation-settings: 'slnt' -10;
+}
+
+.font-back-italic {
+  font-family: 'HGKBBrownLLVIP-Collection';
+  font-variation-settings: 'slnt' 10;
 }
 
 .font-medium {
