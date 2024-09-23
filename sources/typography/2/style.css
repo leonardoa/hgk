@@ -53,8 +53,8 @@ h1, h2, h3, h4, h5, h6, p, em, strong {
 }
 
 .columns-2 {
-  columns: 3;
-  column-gap: 100px;
+  columns: 2;
+  column-gap: 20px;
 }
 
 .columns-3 {
