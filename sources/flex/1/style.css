@@ -9,16 +9,17 @@
 }
 
 /** flex-container justify propriety **/
+
+.container-start {
+  justify-content: flex-start;
+}
+
 .container-center {
   justify-content: center;
 }
 
 .container-space-between {
   justify-content: space-between;
-}
-
-.container-start {
-  justify-content: flex-start;
 }
 
 .container-end {

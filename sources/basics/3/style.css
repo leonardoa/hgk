@@ -13,7 +13,7 @@
 /** positioning **/
 .box-fixed {
   position: fixed;
-  bottomtop: 100px;
+  top: 100px;
   right: 100px;
   padding: 10px;
   width: 100px;

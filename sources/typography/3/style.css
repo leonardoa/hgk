@@ -1,10 +1,11 @@
 /** import fonts **/
 @font-face {
   font-family: 'HGKBBrownLLVIP-Collection';
-  src: url('fonts/HGKBBrownLLVIP-Collection.woff2') format('woff');
+  src: url('fonts/HGKBBrownLLVIP-Collection.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
+
 
 
 /** flex-container **/
@@ -22,12 +23,12 @@ h1, h2, h3, h4, h5, h6, p, em, strong {
 
 .font-regular {
   font-family: 'HGKBBrownLLVIP-Collection';
+  
 }
 
 .font-bold {
   font-family: 'HGKBBrownLLVIP-Collection';
-  font-variation-settings: 'wght' 850;
-
+  font-variation-settings: 'wght' 850, 'slnt' -10, 'wdth' 75;
 }
 
 .font-italic {

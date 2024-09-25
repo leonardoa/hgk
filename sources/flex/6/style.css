@@ -9,6 +9,7 @@ html {
   border-radius: var(--border-radius);
   color:  var(--color-primary);;
   padding:10px;
+  margin-bottom: 20px;
 }
 
 .col {
