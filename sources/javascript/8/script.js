@@ -21,10 +21,6 @@ function draw(predictions) {
       document.getElementById("width").innerHTML = widthFace;
       document.getElementById("height").innerHTML = heightFace;
 
-      //proximity to the camera
-      weight = rangeMap(widthFace, 80, 180, 32, 228);
-      textArea.style.fontVariationSettings = `'wght' ${weight}`;
-
       //face position
       // weight = rangeMap(xFace, 0, 415, 32, 228);
       // textArea.style.fontVariationSettings = `'wght' ${weight}`;

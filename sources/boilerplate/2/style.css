@@ -25,3 +25,24 @@ html, body {
   padding: 10px;
 }
 
+
+.col-full-height {
+  min-height: calc(100vh - 120px);
+}
+
+.col-full-slider {
+  min-height: 100px;
+}
+
+
+@media (max-width: 768px) {
+  .col-full-height {
+    height: auto;
+  }
+  
+  .col-full-slider {
+    height: auto;
+  }
+}
+
+
