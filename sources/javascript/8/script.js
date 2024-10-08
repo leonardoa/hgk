@@ -22,8 +22,8 @@ function draw(predictions) {
       document.getElementById("height").innerHTML = heightFace;
 
       //face position
-      // weight = rangeMap(xFace, 0, 415, 32, 228);
-      // textArea.style.fontVariationSettings = `'wght' ${weight}`;
+      weight = rangeMap(xFace, 0, 415, 32, 228);
+      textArea.style.fontVariationSettings = `'wght' ${weight}`;
 
     }
   }

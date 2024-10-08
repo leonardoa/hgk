@@ -1,10 +1,11 @@
 function draw(predictions) {
   let textArea = document.getElementById("text");
   let weight = null;
+
   if (predictions.length > 0) {
-    let face = predictions.find((item) => item.label === "face");
 
     if (predictions.length > 0) {
+      console.log(predictions);
       let close = predictions.filter((item) => item.label === "closed");
       if (close.length >= 1) {
         let xClose = close[0].bbox[0];
